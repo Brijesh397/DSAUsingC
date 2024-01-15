@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdint.h>
+
+uint32_t nthPowerOfN(uint32_t no,uint32_t pow);
+
+int main()
+{
+
+}

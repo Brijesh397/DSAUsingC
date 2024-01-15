@@ -1,0 +1,14 @@
+LaunchTargetManager/configs/BubbleSort.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Insertion\ Sort.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/MergingTwoSortedArrays.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/SelectionSort.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:SelectionSort.exe,org.eclipse.launchbar.core.descriptorType.default\:BubbleSort.exe,org.eclipse.launchbar.core.descriptorType.default\:MergingTwoSortedArrays.exe,org.eclipse.launchbar.core.descriptorType.default\:Insertion Sort.exe,org.eclipse.launchbar.core.descriptorType.default\:QuickSort.exe,org.eclipse.launchbar.core.descriptorType.default\:MergeSortRecursion.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:BubbleSort.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:BubbleSort.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Insertion\ Sort.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:SelectionSort.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:SelectionSort.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

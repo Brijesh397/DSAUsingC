@@ -1,0 +1,21 @@
+/*
+ * Fibonacci means the output is the sum of previous two numbers
+ * 1,1,2,3,5 ......
+ *
+ * We need to find the nth fibonacci number
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+uint32_t nthFib(uint32_t n);
+
+int main()
+{
+
+}
+
+uint32_t nthFib(uint32_t n)
+{
+
+}

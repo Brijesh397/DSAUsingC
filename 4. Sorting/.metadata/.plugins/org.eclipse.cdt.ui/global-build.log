@@ -1,0 +1,18 @@
+10:43:49 **** Rebuild of configuration Debug for project MergeSortRecursion ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'mergeSort':
+..\main.c:48:27: error: 'temp' undeclared (first use in this function)
+   48 |                 copy(arr, temp, lb, ub)
+      |                           ^~~~
+..\main.c:48:27: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:48:40: error: expected ';' before '}' token
+   48 |                 copy(arr, temp, lb, ub)
+      |                                        ^
+      |                                        ;
+   49 |         }
+      |         ~                               
+..\main.c: In function 'merge':
+..\main.c:58:18: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   58 |         uint32_t temp[ub];
+      |                  ^~~~

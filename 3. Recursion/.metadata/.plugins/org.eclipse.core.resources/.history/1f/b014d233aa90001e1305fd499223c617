@@ -1,0 +1,27 @@
+/*
+ * In Tower Of Hanoi we have three towers(A,B,C) and n disks of different sizes.
+ * We need to move all disks from tower A to tower C without placing the large disks
+ * on small disks using tower B as an helping tower.
+ *
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+uint32_t towerOfHanoi(uint32_t n, char a, char b, char c);
+
+int main()
+{
+
+}
+
+uint32_t towerOfHanoi(uint32_t n, char a, char b, char c)
+{
+	if(n == 1)
+	{
+		printf("Move Disk %d from %c to %c\n",n,a,c);
+	}
+	towerOfHanoi(n-1, a, c, b);
+	printf("Move Disk %d from %c to %c\n",n,a,c);
+	towerOfHanoi(n-1, a, b, c);
+}

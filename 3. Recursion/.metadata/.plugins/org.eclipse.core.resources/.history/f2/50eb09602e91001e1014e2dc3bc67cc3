@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdint.h>
+
+uint32_t printElementsOfAnArray(uint32_t arr[],uint32_t size);
+
+int main()
+{
+	uint32_t size = 0;
+	printf("Input the number of elements to be stored in the array : \r\n");
+	scanf("%d",&size);
+
+	uint32_t arr[size];
+	for(uint32_t i = 0;i<size;i++)
+	{
+		printf("Enter data for %d pos",i);
+		scanf("%d",&arr[i]);
+	}
+
+	printElementsOfAnArray(arr, size-1);
+
+	while(1);
+}
+
+uint32_t printElementsOfAnArray(uint32_t arr[],uint32_t size)
+{
+	if(size == 0)
+	{
+		printf("%d ",arr[size]);
+		return 1;
+	}
+	printElementsOfAnArray(arr,size-1);
+	printf("%d ",arr[size]);
+	return 1;
+}

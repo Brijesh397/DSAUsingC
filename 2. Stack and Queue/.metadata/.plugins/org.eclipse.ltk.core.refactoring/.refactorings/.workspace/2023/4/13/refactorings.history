@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Stack&apos; to &apos;StackArrayImplementation&apos;" description="Rename resource &apos;Stack&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Stack" name="StackArrayImplementation" stamp="1680344866658" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+LaunchTargetManager/configs/BaseConversion.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Factorial.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Fibonacci.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/NthPowerOfNo.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/SumOfDigits.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Factorial.exe,org.eclipse.launchbar.core.descriptorType.default\:SumOfDigits.exe,org.eclipse.launchbar.core.descriptorType.default\:Fibonacci.exe,org.eclipse.launchbar.core.descriptorType.default\:BaseConversion.exe,org.eclipse.launchbar.core.descriptorType.default\:NthPowerOfNo.exe,org.eclipse.launchbar.core.descriptorType.default\:TowerOfHanoi.exe,org.eclipse.launchbar.core.descriptorType.default\:PrintElementsOfAnArray.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:BaseConversion.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:BaseConversion.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Factorial.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Factorial.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Fibonacci.exe/activeLaunchMode=debug
